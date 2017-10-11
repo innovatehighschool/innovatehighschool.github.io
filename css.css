@@ -1,5 +1,5 @@
 body {
-  background:url(http://www.innovatehighschool.ca/img/cubes_2x.png) repeat top center;
+  background:url(hypnotize.png) repeat top center;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -12,13 +12,13 @@ a.back-to-top {
 	z-index: 999;
 	right: 20px;
 	bottom: 20px;
-	background: chocolate url("up-arrow.png") no-repeat center 43%;
+	background: chocolate url("up-arrow2.png") no-repeat center 43%;
 	-webkit-border-radius: 30px;
 	-moz-border-radius: 30px;
 	border-radius: 30px;
 }
 a:hover.back-to-top {
-	background-color: #000;
+	background-color: skyblue;
 }
 
 #navbar {
@@ -124,5 +124,5 @@ a:hover.back-to-top {
 
 .calendar {
   width: 100%;
-  margin: auto;
+  align: center;
 }
