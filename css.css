@@ -1,6 +1,13 @@
 body {
-  background:url(hypnotize.png) repeat top center;
   font-family: 'Raleway', sans-serif;
+}
+
+body.body1 {
+  background:url(https://www.toptal.com/designers/subtlepatterns/patterns/topography.png) repeat top center;
+}
+
+body.body2 {
+  background:url(https://www.toptal.com/designers/subtlepatterns/patterns/seigaiha.png) repeat top center;
 }
 
 a.back-to-top {
