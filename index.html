@@ -25,23 +25,13 @@
 
     <title>Innovate High School</title>
 
-    <style type="text/css">
-    <!--
-    body{
-    background: url(images/<?php echo $selectedBg; ?>) no-repeat;
-    }
-    -->
-    </style>
-
   </head>
   <body onscroll="myFunction()">
 
-    <?php
-      $bg = array('C:\Users\Owner\Documents\GitHub\innovatehighschool.github.io\seigaiha.png', 'C:\Users\Owner\Documents\GitHub\innovatehighschool.github.io\topography.png' ); // array of filenames
-
-      $i = rand(0, count($bg)-1); // generate random number size of the array
-      $selectedBg = "$bg[$i]"; // set variable equal to which random filename was chosen
-    ?>
+    <script>
+    var images = ['topography.png', 'seigaiha.png'];
+    $('html').css({'background-image': 'url(images/' + images[Math.floor(Math.random() * images.length)] + ')'});
+    </script>
 
     <script src="backtotop.js"></script>
 
