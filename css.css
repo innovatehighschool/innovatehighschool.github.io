@@ -128,5 +128,7 @@ a:hover.back-to-top {
 }
 
 .feedtwitter {
+  width: 100%;
   background-color: whitesmoke;
+  border: 1px solid whitesmoke;
 }
