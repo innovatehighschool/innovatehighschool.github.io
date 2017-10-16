@@ -1,4 +1,4 @@
-var totalCount = 2;
+var totalCount = 5;
 function ChangeIt()
 {
 var num = Math.ceil( Math.random() * totalCount );
