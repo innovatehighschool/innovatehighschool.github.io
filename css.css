@@ -125,3 +125,19 @@ a:hover.back-to-top {
   width: 100%;
   align: center;
 }
+
+
+.row1 > .column1 {
+  padding: 0 8px;
+}
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column1 {
+  float: left;
+  width: 25%;
+}
