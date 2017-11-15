@@ -43,6 +43,28 @@ a:hover.back-to-top {
   color: skyblue;
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+    background-color: chocolate;
+    color: black;
+}
+
+.dropdown-content {
+    float: left;
+    color: black;
+    display: none;
+    position: absolute;
+    background-color: chocolate;
+    min-width: 160px;
+    z-index: 1;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 .header {
   padding: 5px;
   text-align: center;
@@ -140,4 +162,27 @@ a:hover.back-to-top {
 .column1 {
   float: left;
   width: 25%;
+}
+
+.link1 {
+  text-decoration: none;
+  color: chocolate;
+}
+
+.link1:hover {
+  color: skyblue;
+}
+
+.link1:visited {
+  color: chocolate;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+}
+
+.link2 {
+  font-family: 'ABeeZee', sans-serif;
 }
