@@ -21,40 +21,48 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://innovatehighschool.github.io/calendar.html</link>
-     <title>Innovate High School</title>
+     <link>https://innovatehighschool.github.io/contact.html</link>
+     <title>Innovate High School - Contact</title>
      <description> Innovate High School offers a project-based program that provides research and experimental opportunities to students who have great IDEAS and a desire to turn their interests into their own learning experience</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://innovatehighschool.github.io/about.html</link>
-     <title>Innovate High School</title>
+     <link>https://innovatehighschool.github.io/funding.html</link>
+     <title>Innovate High School - Funding</title>
      <description> Innovate High School offers a project-based program that provides research and experimental opportunities to students who have great IDEAS and a desire to turn their interests into their own learning experience</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://innovatehighschool.github.io/media.html</link>
-     <title>Innovate High School</title>
+     <link>https://innovatehighschool.github.io/projects.html</link>
+     <title>Innovate High School - Projects</title>
      <description> Innovate High School offers a project-based program that provides research and experimental opportunities to students who have great IDEAS and a desire to turn their interests into their own learning experience</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://innovatehighschool.github.io/awards.html</link>
-     <title>Innovate High School</title>
+     <link>https://innovatehighschool.github.io/registration.html</link>
+     <title>Innovate High School - Registration</title>
      <description> Innovate High School offers a project-based program that provides research and experimental opportunities to students who have great IDEAS and a desire to turn their interests into their own learning experience</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://innovatehighschool.github.io/sponsors.html</link>
-     <title>Innovate High School</title>
+     <link>https://innovatehighschool.github.io/resources.html</link>
+     <title>Innovate High School - Resources</title>
+     <description> Innovate High School offers a project-based program that provides research and experimental opportunities to students who have great IDEAS and a desire to turn their interests into their own learning experience</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://innovatehighschool.github.io/student.html</link>
+     <title>Innovate High School - Student Citizen</title>
      <description> Innovate High School offers a project-based program that provides research and experimental opportunities to students who have great IDEAS and a desire to turn their interests into their own learning experience</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
