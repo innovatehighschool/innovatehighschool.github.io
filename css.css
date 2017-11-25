@@ -186,3 +186,7 @@ a:hover.back-to-top {
 .link2 {
   font-family: 'ABeeZee', sans-serif;
 }
+
+.linkpic {
+  list-style-image: url('link.png');
+}
