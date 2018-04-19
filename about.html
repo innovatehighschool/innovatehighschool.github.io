@@ -19,16 +19,16 @@
     <script src="background.js"></script>
 
     <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
-  <!-- jQuery library -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-  <!-- Popper JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 
-  <!-- Latest compiled JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -81,27 +81,143 @@
 
     <br>
     <br>
-
     <div class="row">
       <div class="col-sm-1">
       </div>
       <div class="col-sm-10">
-        <h1>About</h1>
-        <p>Innovate originated at Queen Elizabeth High School in north Edmonton when teacher Aaron Dublenko encouraged the environmental club to try something different. It began with the quest to install 5 solar PV modules on the first school in Edmonton. Soon after, 17 students came together to build solar lanterns for Haiti and formed the SLISE club "Student Led Initiatives for Sustainability Education" in 2010. The program officially changed names in 2014 to accommodate a wider audience interested in "Education for Sustainable Development". Since this time, Innovate has supported student projects to assist Haitians with earthquake relief efforts, study and improve indoor air and water quality, recycling, indoor and outdoor gardening and sustainable landscaping of school campuses, solar cooking, 3D printing, design and development of micro wind turbines, public presentations including the United Nations Conference on Climate Change in Doha, Qatar (2012), and community spirited initiatives from lunch programs to tree planting blitzes to improve and strengthen our city community.
-        </p>
-        <br>
-        <p>Innovate at Queen Elizabeth High School: <a target="_blank" class="link1" href="http://queenelizabeth.epsb.ca/programs/careertechnologystudies/innovate/">queenelizabeth.epsb.ca/programs/careertechnologystudies/innovate/</a></p>
-      </div>
-      <div class="col-sm-1">
-      </div>
-    </div>
 
-    <br>
-    <div class="row">
-      <div class="col-sm-1">
-      </div>
-      <div class="col-sm-10">
-        <object class="calendar" width="100" height="700" data="Innovate Program Overview.pdf"></object>
+        <!-- Tab links -->
+        <div class="tab">
+          <button class="tablinks" onclick="openCity(event, 'About')" id="defaultOpen">About</button>
+          <button class="tablinks" onclick="openCity(event, 'Awards')">Awards</button>
+          <button class="tablinks" onclick="openCity(event, 'Media')">Media</button>
+          <button class="tablinks" onclick="openCity(event, 'Sponsors')">Sponsors</button>
+        </div>
+
+        <!-- Tab content -->
+        <div id="About" class="tabcontent">
+          <br>
+          <h3>About</h3>
+          <p>Innovate originated at Queen Elizabeth High School in north Edmonton when teacher Aaron Dublenko encouraged the environmental club to try something different. It began with the quest to install 5 solar PV modules on the first school in Edmonton. Soon after, 17 students came together to build solar lanterns for Haiti and formed the SLISE club "Student Led Initiatives for Sustainability Education" in 2010. The program officially changed names in 2014 to accommodate a wider audience interested in "Education for Sustainable Development". Since this time, Innovate has supported student projects to assist Haitians with earthquake relief efforts, study and improve indoor air and water quality, recycling, indoor and outdoor gardening and sustainable landscaping of school campuses, solar cooking, 3D printing, design and development of micro wind turbines, public presentations including the United Nations Conference on Climate Change in Doha, Qatar (2012), and community spirited initiatives from lunch programs to tree planting blitzes to improve and strengthen our city community.</p>
+          <br>
+          <p>Innovate at Queen Elizabeth High School: <a target="_blank" class="link1" href="http://queenelizabeth.epsb.ca/programs/careertechnologystudies/innovate/">queenelizabeth.epsb.ca/programs/careertechnologystudies/innovate/</a></p>
+          <br>
+          <br>
+          <object class="calendar" width="100" height="700" data="Innovate Program Overview.pdf"></object>
+        </div>
+
+        <div id="Awards" class="tabcontent">
+          <br>
+          <h3>Awards</h3>
+          <p>Edmonton Community Foundation offers several awards for students pursuing post-secondary education, mostly based on financial need and community involvement. <a class="link1" target="_blank" href="http://www.ecfoundation.org/grants/student-awards">Find out more!</a></p>
+          <br>
+          <br>
+          <ul class="linkpic">
+            <li><a href="http://www.vancouversun.com/23rd+Annual+Emerald+Awards/9912229/story.html" target="_blank" class="link1">www.vancouversun.com/23rd+Annual+Emerald+Awards/9912229/story.html</a><br></li>
+            <li><a href="http://www.dailymotion.com/video/x31r28m" target="_blank" class="link1">www.dailymotion.com/video/x31r28m</a><br></li>
+            <li><a href="http://emeraldfoundation.ca/aef_awards/student-led-initiatives-for-sustainable-education-slise-2/" target="_blank" class="link1">emeraldfoundation.ca/aef_awards/student-led-initiatives-for-sustainable-education-slise-2/</a><br></li>
+            <li><a href="http://www.alberta.ca/release.cfm?xID=3233760A6523D-C29E-62D0-FF13A6AADD6AED05" target="_blank" class="link1">www.alberta.ca/release.cfm?xID=3233760A6523D-C29E-62D0-FF13A6AADD6AED05</a></li>
+          </ul>
+        </div>
+
+        <div id="Media" class="tabcontent">
+          <br>
+          <h3>Media</h3>
+          <br>
+          <div class="row">
+            <div class="col-sm-6">
+              <iframe width="100%" height="300px" src="https://www.youtube.com/embed/XiXoQUD9xJs" frameborder="0" gesture="media" allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-6">
+              <iframe width="100%" height="300px" src="https://www.youtube.com/embed/Eciymg5MNfE" frameborder="0" gesture="media" allowfullscreen></iframe>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-sm-6">
+              <iframe width="100%" height="300px" src="https://www.youtube.com/embed/FfJSIqPfZYA?list=PLYVMLXaAecdWS07zPuw33FCyfJcRz7OWR" frameborder="0" gesture="media" allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-6">
+              <iframe width="100%" height="300px" src="https://www.youtube.com/embed/VlFKwr02ApA" frameborder="0" gesture="media" allowfullscreen></iframe>
+            </div>
+          </div>
+          <br>
+          <br>
+          <ul class="linkpic">
+            <li><a href="http://globalnews.ca/news/3397394/alberta-students-show-climate-leadership-through-150-unique-projects/" target="_blank" class="link1">Alberta students show climate leadership through 150 unique projects</a><br></li>
+            <li><a href="http://edmontonjournal.com/news/local-news/edmonton-students-help-build-prosthetic-hands-for-children-overseas" target="_blank" class="link1">Edmonton students help build prosthetic hands for children overseas</a><br></li>
+            <li><a href="http://www.cbc.ca/beta/news/canada/edmonton/edmonton-students-prosthetic-hands-1.3902014" target="_blank" class="link1">Edmonton students get hands-on experience with 3D printed prosthetics</a><br></li>
+            <li><a href="http://cwf-fcf.org/en/about-cwf/partners-and-sponsors/hsbc-brighter-futures-for-wildlife/?src=hpbox" target="_blank" class="link1">HSBC Brighter Futures for Wildlife Program</a><br></li>
+            <li><a href="http://www.tubechop.com/watch/8346483" target="_blank" class="link1">Energy Management</a><br></li>
+            <li><a href="http://globalnews.ca/news/2635088/queen-elizabeth-high-school-receives-national-recognition-for-environmental-contributions/" target="_blank" class="link1">Global NEWS - (Staples Store Award)</a><br></li>
+            <li><a href="http://www.ctvnews.ca/health/teens-use-3d-printers-to-make-prosthetic-hands-for-less-fortunate-children-1.2736641" target="_blank" class="link1">CTV News - (3D Printed Prosthetics)</a><br></li>
+            <li><a href="http://www.cbc.ca/player/play/2677570400" target="_blank" class="link1">CBC - (Solar Panels)</a><br></li>
+            <li><a href="http://edmontonjournal.com/news/local-news/edmonton-high-school-named-greenest-school-in-canada" target="_blank" class="link1">www.edmontonjournal.com/news/local-news/edmonton-high-school-named-greenest-school-in-canada</a><br></li>
+            <li><a href="http://illuminate.ualberta.ca/content/bridge-without-limits-aaron-dublenko-and-student-led-initiatives-sustainable-education-slise" target="_blank" class="link1">www.illuminate.ualberta.ca/content/bridge-without-limits-aaron-dublenko-and-student-led-initiatives-sustainable-education-slise</a><br></li>
+            <li><a href="http://www.abcee.org/cms/wp-content/uploads/2012/12/SLISE_Feb_2013.pdf" target="_blank" class="link1">www.abcee.org/cms/wp-content/uploads/2012/12/SLISE_Feb_2013.pdf</a><br></li>
+            <li><a href="http://www.edmontonexaminer.com/2012/03/28/greenfield-queen-elizabeth-schools-buy-1500-lifestraws-for-haiti" target="_blank" class="link1">www.edmontonexaminer.com/2012/03/28/greenfield-queen-elizabeth-schools-buy-1500-lifestraws-for-haiti</a><br></li>
+            <li><a href="http://naitnewswatch.ca/articles/queen-elizabeth-high-school-named-greenest-school-canada/" target="_blank" class="link1">www.naitnewswatch.ca/articles/queen-elizabeth-high-school-named-greenest-school-canada/ </a><br></li>
+            <li><a href="http://www.teachers.ab.ca/Publications/ATA%20News/Volume%2050%202015-16/Number4/Pages/Alberta-school-named-one-of-country's-greenest.aspx" target="_blank" class="link1">www.teachers.ab.ca/Publications/ATA%20News/Volume%2050%202015-16/Number4/Pages/Alberta-school-named-one-of-country's-greenest.aspx</a><br></li>
+            <li><a href="http://aref.ab.ca/the-alberta-emerald-foundation-announces-25th-annual-emerald-awards-finalists/" target="_blank" class="link1">www.aref.ab.ca/the-alberta-emerald-foundation-announces-25th-annual-emerald-awards-finalists/</a><br></li>
+            <li><a href="http://globalnews.ca/news/2433289/alberta-students-help-send-3d-printed-prosthetic-hands-to-third-world-kids/" target="_blank" class="link1">www.globalnews.ca/news/2433289/alberta-students-help-send-3d-printed-prosthetic-hands-to-third-world-kids/</a><br></li>
+            <li><a href="https://3dprint.com/113886/alberta-students-e-nable/" target="_blank" class="link1">www.3dprint.com/113886/alberta-students-e-nable/</a><br></li>
+            <li><a href="http://agricultureforlife.ca/wp-content/uploads/2014/03/Green-Thumbs-Growing-in-AB-Schools.pdf" target="_blank" class="link1">www.agricultureforlife.ca/wp-content/uploads/2014/03/Green-Thumbs-Growing-in-AB-Schools.pdf</a><br></li>
+            <li><a href="http://www.cbc.ca/news/canada/edmonton/solar-panels-on-the-roof-of-this-school-1.3285696" target="_blank" class="link1">www.cbc.ca/news/canada/edmonton/solar-panels-on-the-roof-of-this-school-1.3285696</a><br></li>
+            <li><a href="http://www.sprucegroveexaminer.com/2016/03/11/parkland-school-division" target="_blank" class="link1">www.sprucegroveexaminer.com/2016/03/11/parkland-school-division</a><br></li>
+            <li><a href="http://panopticnews.com/gatewaygazette/emerald-award-recipient-recognized-as-greenest-school-in-canada/ " target="_blank" class="link1">www.panopticnews.com/gatewaygazette/emerald-award-recipient-recognized-as-greenest-school-in-canada/ </a><br></li>
+          </ul>
+        </div>
+
+        <div id="Sponsors" class="tabcontent">
+          <br>
+          <h3>Sponsors & Partnerships</h3>
+          <br>
+          <div class="row">
+            <div class="col-sm-6">
+              <a href="http://pomphreyindustries.co/" target="_blank"><img src="sponsors\pomphery.jpg"></a>
+              <br>
+              <br>
+              <img src="sponsors\acee.jpg">
+              <br>
+              <br>
+              <img src="sponsors\aef.jpg">
+              <br>
+              <br>
+              <img src="sponsors\bsyfed.jpg">
+              <br>
+              <br>
+              <img src="sponsors\cagbc.jpg">
+              <br>
+              <br>
+              <img src="sponsors\cawst.jpg">
+              <br>
+              <br>
+              <img src="sponsors\cwf.jpg">
+            </div>
+            <div class="col-sm-6">
+              <img src="sponsors\devon.jpg">
+              <br>
+              <br>
+              <img src="sponsors\ecf.jpg">
+              <br>
+              <br>
+              <img src="sponsors\inside.jpg">
+              <br>
+              <br>
+              <img src="sponsors\ja.jpg">
+              <br>
+              <br>
+              <img src="sponsors\printmind.jpg">
+              <br>
+              <br>
+              <img src="sponsors\solar.jpg">
+              <br>
+              <br>
+              <img src="sponsors\staples.jpg">
+            </div>
+          </div>
+        </div>
+
       </div>
       <div class="col-sm-1">
       </div>
@@ -131,6 +247,8 @@
     </div>
 
   </body>
+
+  <script src="tabs.js"></script>
 
   <script src="change.js"></script>
 
